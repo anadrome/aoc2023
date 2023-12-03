@@ -5,3 +5,5 @@ The initial plan is to use this as an excuse to learn
 flying saucer"). I've eyed BQN for a while but have never written anything in
 it. Remains to be seen whether I stick with this, or switch to a language in
 which I have any clue what I'm doing.
+
+I'm also doing some of them in bash, additionally or instead.
