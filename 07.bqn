@@ -11,7 +11,7 @@ facevals  ← ⟨ 10,  11,  12,  13,  14⟩
 hands ← ((facecards _ReplaceElems_ (facevals+'0'))¨ 5↑¨ lines) - '0'
 bets  ← (⊑ (str.ToNats 6⊸↓))¨ lines
 
-matches ← (2↑(∨ (≠⟜1⊸/ (/⁼⊐))))¨ hands
+matches ← (2↑(∨ (/⁼⊐)))¨ hands
 ranks ← (⍋⍋ matches ∾¨ hands) + 1
 
 •Show +´ bets ×¨ ranks
